@@ -149,5 +149,68 @@ section h2::after {
 .apropos P {
     margin-bottom: 2rem;
     color: var(--gris-fonce);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
+
+.competences table {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.competences table th, .competences table td {
+    padding: 15px;
+}
+
+.competences table thead tr {
+    background-color: var(--violet-doux);
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+.competences table td {
+    border-bottom: 1px solid var(--gris-clair);
+}
+
+.competences table tbody tr:nth-child(even) {
+    background-color: #fdfdfd;
+}
+
+.competences tbody tr {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.competences tbody tr:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-3px);
+}
+footer {
+    background-color: var(--violet-fonce);
+    color: #fff;
+    margin-top: 3rem;
+    padding: 3rem;
+    text-align: center;
+}
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    font-size: 1.6em;
+    color: #FFF;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: var(--orange-vif);
+    transform: translateY(-3px);
+}
+
